@@ -113,7 +113,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             )}
           </nav>
         </div>
-      </div>
     </div>
   );
 }

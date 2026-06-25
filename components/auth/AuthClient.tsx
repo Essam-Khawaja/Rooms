@@ -175,6 +175,43 @@ export function AuthClient() {
             </button>
           </div>
 
+          {tab === "login" && (
+            <div className="mb-4 rounded-xl border border-border bg-surface p-3 text-xs text-text-muted">
+              <p className="font-medium text-text-main">Demo accounts</p>
+              <p className="mt-1">
+                Organizer: <span className="text-text-main">organizer@rooms.demo</span>
+              </p>
+              <p>
+                Attendee: <span className="text-text-main">attendee@rooms.demo</span>
+              </p>
+              <p className="mt-1">Password: <span className="text-text-main">RoomsDemo2026!</span></p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  className="rounded-lg bg-accent-soft px-2.5 py-1 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
+                  onClick={() => {
+                    setEmail("organizer@rooms.demo");
+                    setPassword("RoomsDemo2026!");
+                    setError(null);
+                  }}
+                >
+                  Fill organizer
+                </button>
+                <button
+                  type="button"
+                  className="rounded-lg bg-accent-soft px-2.5 py-1 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
+                  onClick={() => {
+                    setEmail("attendee@rooms.demo");
+                    setPassword("RoomsDemo2026!");
+                    setError(null);
+                  }}
+                >
+                  Fill attendee
+                </button>
+              </div>
+            </div>
+          )}
+
           {tab === "login" ? (
             <form onSubmit={handleLogin} className="flex flex-col gap-4">
               <Field label="Email">
