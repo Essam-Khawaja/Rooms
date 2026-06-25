@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --background: #080a0f;
+  --surface: #11141c;
+  --surface-soft: #171b25;
+  --border: #2a3040;
+
+  --text-main: #f4efe7;
+  --text-muted: #a6a199;
+  --text-faint: #6f7280;
+
+  --accent: #d6ff6b;
+  --accent-soft: rgba(214, 255, 107, 0.14);
+
+  --blue-node: #7aa2ff;
+  --pink-node: #ff7ab6;
+  --green-node: #72e6ac;
+  --orange-node: #ffb86b;
+  --purple-node: #b892ff;
+
+  --danger: #ff6b6b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-border: var(--border);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-text-faint: var(--text-faint);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-blue-node: var(--blue-node);
+  --color-pink-node: var(--pink-node);
+  --color-green-node: var(--green-node);
+  --color-orange-node: var(--orange-node);
+  --color-purple-node: var(--purple-node);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: var(--background);
+  color: var(--text-main);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text-main);
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+.glass-panel {
+  background: rgba(17, 20, 28, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border);
+}
+
+.pulse-ring {
+  animation: pulse-ring 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-ring {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(214, 255, 107, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(214, 255, 107, 0);
+  }
+}

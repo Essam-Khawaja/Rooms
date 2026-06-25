@@ -1,0 +1,22 @@
+name,email,role,company,interests,looking_for,can_help_with,username
+Aisha Khan,aisha@example.com,ML Student,UCalgary,"AI, Robotics, Computer Vision",ML internship leads,Model evaluation and Python,aishakhan
+Marcus Lee,marcus@example.com,Founder,Nova Labs,"Startups, AI, Product",Technical cofounder,Pitch strategy,marcuslee
+Priya Shah,priya@example.com,Recruiter,Northstar Tech,"Hiring, Software Engineering, Internships",Strong student builders,Resume feedback,priyashah
+Daniel Kim,daniel@example.com,Designer,Freelance,"UX, Branding, Startups",Founder projects,Landing page design,danielkim
+Sarah Chen,sarah@example.com,Software Engineer,Stripe,"AI, Distributed Systems, Startups",Side project collaborators,Backend architecture,sarahchen
+James Okonkwo,james@example.com,PhD Researcher,MIT,"AI, Research, Computer Vision",Industry partnerships,Research collaboration,jamesokonkwo
+Elena Rodriguez,elena@example.com,Product Manager,Figma,"Product, Design, Startups",Early-stage founders,Product strategy,elenarodriguez
+Tyler Wong,tyler@example.com,CS Student,UCalgary,"AI, Startups, Web Development",Hackathon teammates,Full-stack development,tylerwong
+Nina Patel,nina@example.com,VC Associate,Horizon Ventures,"Startups, AI, Investing",Pre-seed founders,Fundraising advice,ninapatel
+Alex Morrison,alex@example.com,DevOps Engineer,AWS,"Cloud, Distributed Systems, Startups",Infrastructure challenges,Cloud architecture,alexmorrison
+Maya Johnson,maya@example.com,UX Researcher,Google,"UX, Research, AI",Design partners,User research methods,mayajohnson
+Ryan Foster,ryan@example.com,Founder,HealthAI,"AI, Healthcare, Startups",ML engineers,Healthcare domain expertise,ryanfoster
+Lisa Wang,lisa@example.com,Brand Designer,Studio L,"Branding, Design, Startups",Startup clients,Visual identity,lisawang
+Omar Hassan,omar@example.com,Data Science Student,UCalgary,"AI, Data Science, Research",Research mentors,Data analysis,omarhassan
+Kate Sullivan,kate@example.com,Talent Lead,Shopify,"Hiring, Startups, Product",Senior engineers,Interview prep,katesullivan
+David Park,david@example.com,Mobile Engineer,Spotify,"Mobile, Startups, Design",iOS side projects,Swift and React Native,davidpark
+Rachel Green,rachel@example.com,Research Scientist,DeepMind,"AI, Research, Robotics",Academic collaborators,Paper reviews,rachelgreen
+Chris Bell,chris@example.com,Founder,GreenTech,"Startups, Climate, Product",Climate tech engineers,Sustainability strategy,chrisbell
+Jenny Liu,jenny@example.com,Product Designer,Airbnb,"UX, Design, Startups",Design system work,Design critiques,jennyliu
+Mike Thompson,mike@example.com,MBA Student,Haskayne,"Startups, Investing, Product",Technical cofounders,Business development,mikethompson
+Syed Essam Uddin,syedessam345@gmail.com,Software Engineer,UCalgary,"AI, Startups, Full-Stack Development",Hackathon teammates and founder connections,Next.js and product prototyping,
